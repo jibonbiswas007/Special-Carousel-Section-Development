@@ -1,0 +1,53 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+.product-price {
+  height: 290px;
+}
+    
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.product-price {
+  height: 290px;
+}
+    
+    
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+    
+.product-info a.product-btn {
+  margin-bottom: 40px;
+}
+.product-price {
+  right: 40px;
+  width: 185px;
+  height: 245px;
+}  
+.product-area-wrap .owl-dots {
+  display: none;
+}
+    
+    
+    
+    
+}
+    
+    
+    
+/* Large Mobile :40px. */
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+}
